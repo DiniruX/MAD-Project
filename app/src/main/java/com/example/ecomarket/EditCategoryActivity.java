@@ -106,3 +106,4 @@ public class EditCategoryActivity extends AppCompatActivity {
         
     }
 }
+//end of the delete and updates
