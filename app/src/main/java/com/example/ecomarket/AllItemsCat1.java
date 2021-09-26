@@ -32,6 +32,7 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 //this is the Add Item Page
+//page start here
 public class AllItemsCat1 extends AppCompatActivity implements ItemRVAdapter.ItemClickInterface {private RecyclerView itemRV;
     private ProgressBar loadingPB;
     private FloatingActionButton addFAB;
