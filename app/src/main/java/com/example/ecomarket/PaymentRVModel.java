@@ -3,6 +3,7 @@ package com.example.ecomarket;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+//model class
 public class PaymentRVModel implements Parcelable {
     private String PaymentName;
     private String PaymentPhone;
