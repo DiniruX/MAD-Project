@@ -124,7 +124,7 @@ public class Login extends AppCompatActivity {
 
                     username.setError(null);
                     username.setErrorEnabled(false);
-
+//function for login
 
                     String passwordFromDB= snapshot.child(userEnteredUsername).child("password").getValue(String.class);
 

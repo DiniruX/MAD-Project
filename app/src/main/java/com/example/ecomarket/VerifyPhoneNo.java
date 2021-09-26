@@ -52,6 +52,8 @@ public class VerifyPhoneNo extends AppCompatActivity {
                 (Activity) TaskExecutors.MAIN_THREAD,
                 mCallbacks);
     }
+    
+    //calling Function
 
     private PhoneAuthProvider.OnVerificationStateChangedCallbacks mCallbacks = new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
 
