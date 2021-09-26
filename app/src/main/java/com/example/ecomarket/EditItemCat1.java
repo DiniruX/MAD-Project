@@ -19,7 +19,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.HashMap;
 import java.util.Map;
-
+//this is the Edit Item cat1
 public class EditItemCat1 extends AppCompatActivity {
 
     private TextInputEditText ItemNameEdit,ItemPriceEdit,ItemCategoryEdit,ItemImageEdit,ItemLinkEdit,ItemDescriptionEdit;

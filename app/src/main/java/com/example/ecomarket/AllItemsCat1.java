@@ -31,7 +31,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
-
+//this is the Add Item Page
 public class AllItemsCat1 extends AppCompatActivity implements ItemRVAdapter.ItemClickInterface {private RecyclerView itemRV;
     private ProgressBar loadingPB;
     private FloatingActionButton addFAB;
@@ -67,7 +67,7 @@ public class AllItemsCat1 extends AppCompatActivity implements ItemRVAdapter.Ite
         });
         getAllItems();
     }
-
+//get all items
     private void getAllItems(){
         itemRVModalArrayList.clear();
         databaseReference.addChildEventListener(new ChildEventListener() {
