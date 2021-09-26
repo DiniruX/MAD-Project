@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity implements  CategoryRVAdapte
             }
         });
 
-
+//user can view catogries
         getAllCategories();
     }
 
