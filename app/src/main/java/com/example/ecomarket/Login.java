@@ -73,7 +73,7 @@ public class Login extends AppCompatActivity {
             }
         });
     }
-
+//validateLogin
     private boolean validateUsername() {
         String val = username.getEditText().getText().toString();
 
