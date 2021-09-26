@@ -52,7 +52,7 @@ public class CategoryRVAdapter extends RecyclerView.Adapter<CategoryRVAdapter.Vi
 
 
     }
-
+//categeory RV adapter
     private void seAnimation(View itemView,int position){
         if(position>lastPos){
             Animation animation = AnimationUtils.loadAnimation(context, android.R.anim.slide_in_left);
