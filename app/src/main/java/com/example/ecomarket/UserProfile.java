@@ -14,6 +14,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class UserProfile extends AppCompatActivity {
 
+   
     TextInputLayout fullName, email, phoneNo, password;
     TextView fullNameLabel, usernameLabel;
     Button shopping;
@@ -62,7 +63,7 @@ public class UserProfile extends AppCompatActivity {
 
 
     }
-
+//show
     private void showAllData() {
 
         Intent intent = getIntent();
