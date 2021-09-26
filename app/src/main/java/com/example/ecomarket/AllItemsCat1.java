@@ -67,7 +67,7 @@ public class AllItemsCat1 extends AppCompatActivity implements ItemRVAdapter.Ite
         });
         getAllItems();
     }
-
+//get all items
     private void getAllItems(){
         itemRVModalArrayList.clear();
         databaseReference.addChildEventListener(new ChildEventListener() {
