@@ -81,7 +81,7 @@ public class UserProfile extends AppCompatActivity {
         password.getEditText().setText(_PASSWORD);
 
     }
-
+//validations
     public void update(View view) {
         if (isNameChanged() || isPasswordChanged() || isPhoneNoChanged() || isEmailChanged() ){
 
@@ -135,7 +135,7 @@ public class UserProfile extends AppCompatActivity {
             return false;
         }
     }
-
+//delete
     private void deleteItem(){
         reference.removeValue();
         startActivity(new Intent(UserProfile.this,Login.class));
