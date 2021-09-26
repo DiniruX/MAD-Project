@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity implements  CategoryRVAdapte
         });
 
     }
-
+//display the bottomsheet
     @Override
     public void onCategoryClick(int position1) {
         displayBottomSheet(categoryRVModalArrayList.get(position1));
