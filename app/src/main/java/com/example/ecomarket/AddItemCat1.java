@@ -26,7 +26,7 @@ public class AddItemCat1 extends AppCompatActivity {
     private FirebaseDatabase firebaseDatabase;
     private DatabaseReference databaseReference;
     private String ItemID;
-
+//this is the All Items Category1 page
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
