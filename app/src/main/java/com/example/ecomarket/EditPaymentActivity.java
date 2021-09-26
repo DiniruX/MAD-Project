@@ -20,6 +20,8 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.HashMap;
 import java.util.Map;
 
+//payment edit page
+//page starts here
 public class EditPaymentActivity extends AppCompatActivity {
 
     private TextInputEditText paymentNameEdt, paymentPhoneEdt, paymentAddressEdt, paymentPlaceEdt, paymentCardEdt, paymentNoteEdt;
