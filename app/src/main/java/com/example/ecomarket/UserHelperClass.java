@@ -2,6 +2,7 @@ package com.example.ecomarket;
 
 public class UserHelperClass {
 
+    //createHelperclass
     String name,username,email,phoneNo,password;
 
     public UserHelperClass() {
