@@ -89,7 +89,7 @@ public class EditCategoryActivity extends AppCompatActivity {
 
             }
         });
-
+//****************************//
         deleteCategoryBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
