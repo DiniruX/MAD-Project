@@ -17,7 +17,8 @@ public class SuccessfulPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_successful_page);
         idBackHome = findViewById(R.id.idBackHome);
-
+        
+        //onclick listner for idbackhome
         idBackHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
