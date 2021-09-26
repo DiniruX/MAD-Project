@@ -34,7 +34,7 @@ public class CategoryRVModal implements Parcelable {
             return new CategoryRVModal[size];
         }
     };
-
+//getters and setters
     public String getCategoryName() {
         return categoryName;
     }
