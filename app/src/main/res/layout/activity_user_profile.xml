@@ -18,6 +18,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="300px"
             android:layout_marginBottom="10dp"></ImageView>
+        //button
 
         <Button
 
