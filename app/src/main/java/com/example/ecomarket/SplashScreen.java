@@ -15,6 +15,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class SplashScreen extends AppCompatActivity {
+    
 
     private static int SPLASH_SCREEN = 5000;
 
@@ -40,6 +41,8 @@ public class SplashScreen extends AppCompatActivity {
 
         txt.setAnimation(bottomAnim);
         image.setAnimation(topAnim);
+        
+        //delayfunction
 
         new Handler().postDelayed(new Runnable() {
             @Override
