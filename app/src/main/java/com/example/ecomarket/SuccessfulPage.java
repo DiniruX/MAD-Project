@@ -7,6 +7,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+//last page
 public class SuccessfulPage extends AppCompatActivity {
 
     private Button idBackHome;
