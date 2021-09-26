@@ -44,6 +44,7 @@ public class AddPaymentActivity extends AppCompatActivity {
         databaseReference = firebaseDatabase.getReference("Payments");
 
         //add payment button
+        //onclick listener
         addPaymentBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
