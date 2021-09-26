@@ -98,7 +98,7 @@ public class Login extends AppCompatActivity {
             return true;
         }
     }
-
+//onclickmethod
 
     public void loginUser(View view) {
         if (!validateUsername() | !validatePassword()) {
