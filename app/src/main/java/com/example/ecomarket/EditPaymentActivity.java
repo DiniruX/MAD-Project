@@ -100,7 +100,9 @@ public class EditPaymentActivity extends AppCompatActivity {
 
             }
         });
-
+        
+        //delete payment button
+        //on click listener
         deletePaymentBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
