@@ -78,7 +78,7 @@ public class EditCategoryActivity extends AppCompatActivity {
                         Toast.makeText(EditCategoryActivity.this, "Category Updated", Toast.LENGTH_SHORT).show();
 
                     }
-
+//delete category
                     @Override
                     public void onCancelled(@NonNull DatabaseError error) {
                         Toast.makeText(EditCategoryActivity.this, "Fail to update category", Toast.LENGTH_SHORT).show();
