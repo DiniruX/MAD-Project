@@ -30,7 +30,7 @@ public class EditCategoryActivity extends AppCompatActivity {
     private String categoryID;
     private CategoryRVModal categoryRVModal;
 
-
+//Edit category
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
