@@ -18,6 +18,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 //created by malshika peiris
+//page starts here
 public class AddItemCat1 extends AppCompatActivity {
 
     private TextInputEditText ItemNameEdit,ItemPriceEdit,ItemCategoryEdit,ItemImageEdit,ItemLinkEdit,ItemDescriptionEdit;
