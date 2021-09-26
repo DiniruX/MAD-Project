@@ -27,7 +27,7 @@ public class AddCategoryActivity extends AppCompatActivity {
     private DatabaseReference databaseReference;
     private String categoryID;
 
-
+//dabase reference
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
